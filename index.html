@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi interval Bar Chart</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      input {
+        width: 500px;
+      }
+      .chart-container {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+      }
+      li {
+        list-style: none;
+        margin: 5% 0.1%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <input id="input" type="number" />
+        <button id="btn-stop">stop</button>
+        <button id="btn-start"></button>
+      </div>
+
+      <ul class="chart-container"></ul>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
